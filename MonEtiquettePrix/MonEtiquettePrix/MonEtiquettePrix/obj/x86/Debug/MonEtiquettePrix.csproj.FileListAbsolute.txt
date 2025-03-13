@@ -1,0 +1,11 @@
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\bin\x86\Debug\MonEtiquettePrix.exe.config
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\bin\x86\Debug\MonEtiquettePrix.exe
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\bin\x86\Debug\MonEtiquettePrix.pdb
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\obj\x86\Debug\MonEtiquettePrix.csproj.AssemblyReference.cache
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\obj\x86\Debug\MonEtiquettePrix.Properties.Resources.resources
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\obj\x86\Debug\MonEtiquettePrix.csproj.GenerateResource.cache
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\obj\x86\Debug\MonEtiquettePrix.csproj.CoreCompileInputs.cache
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\obj\x86\Debug\MonEtiquettePrix.exe
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\obj\x86\Debug\MonEtiquettePrix.pdb
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\bin\x86\Debug\SAPBusinessOneSDK.dll
+C:\Users\Corly\source\repos\MonEtiquettePrix\MonEtiquettePrix\obj\x86\Debug\MonEtiqu.7BD38EBC.Up2Date
