@@ -1389,7 +1389,7 @@ namespace MonEtiquettePrix
                                 INNER JOIN OPLN T2 ON T1.PriceList = T2.ListNum 
                                 INNER JOIN OITW T3 ON T3.ItemCode = T0.ItemCode
                                 WHERE T2.[ListNum] ={LisP} AND T0.[ItemCode] BETWEEN '{FromItem}' AND '{To}' and T0.[ItemName] LIKE '{comm}%'
-                                AND T3.[WhsCode] = '{mag}' AND T0.[U_sous_fam] = '{sous_famille}' and T3.[OnHand] > 0 ";
+                                AND T3.[WhsCode] = '{mag}' AND T0.[U_sous_fam] = '{sous_famille}' and T3.[OnHand] >= 0 ";
             }
             else if (!string.IsNullOrEmpty(FromItem) && !string.IsNullOrEmpty(To) && !string.IsNullOrEmpty(mag))
             {
@@ -1397,7 +1397,7 @@ namespace MonEtiquettePrix
                                 INNER JOIN OPLN T2 ON T1.PriceList = T2.ListNum 
                                 INNER JOIN OITW T3 ON T3.ItemCode = T0.ItemCode
                                 WHERE T2.[ListNum] ={LisP} AND T0.[U_sous_fam] = '{sous_famille}' AND T0.[ItemCode] BETWEEN '{FromItem}' AND '{To}'
-                                AND T3.[WhsCode] = '{mag}' and T3.[OnHand] > 0 ";
+                                AND T3.[WhsCode] = '{mag}' and T3.[OnHand] >= 0 ";
             }
             else if (!string.IsNullOrEmpty(FromItem) && !string.IsNullOrEmpty(To) && !string.IsNullOrEmpty(comm))
             {
@@ -1418,14 +1418,14 @@ namespace MonEtiquettePrix
                                 INNER JOIN OPLN T2 ON T1.PriceList = T2.ListNum 
                                 INNER JOIN OITW T3 ON T3.ItemCode = T0.ItemCode
                                 WHERE T2.[ListNum] ={LisP} and T0.[ItemName] LIKE '{comm}%'
-                                AND T3.[WhsCode] = '{mag}' AND T0.[U_sous_fam] = '{sous_famille}' and T3.[OnHand] > 0 ";
+                                AND T3.[WhsCode] = '{mag}' AND T0.[U_sous_fam] = '{sous_famille}' and T3.[OnHand] >= 0 ";
             }
             else if (!string.IsNullOrEmpty(mag))
             {
                 query = $@"SELECT T0.[ItemCode] 'Code Article', T0.[ItemName] 'Description article', T0.[CodeBars] 'Code barres', T1.[Price] 'Prix de vente', T0.[U_PCB] 'PCB' FROM OITM T0 INNER JOIN ITM1 T1 ON T0.ItemCode = T1.ItemCode 
                                 INNER JOIN OPLN T2 ON T1.PriceList = T2.ListNum 
                                 INNER JOIN OITW T3 ON T3.ItemCode = T0.ItemCode
-                                WHERE T2.[ListNum] ={LisP} AND T0.[U_sous_fam] = '{sous_famille}' AND T3.[WhsCode] = '{mag}' and T3.[OnHand] > 0 ";
+                                WHERE T2.[ListNum] ={LisP} AND T0.[U_sous_fam] = '{sous_famille}' AND T3.[WhsCode] = '{mag}' and T3.[OnHand] >= 0 ";
             }
             else if (!string.IsNullOrEmpty(comm))
             {
